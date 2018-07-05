@@ -27,4 +27,4 @@ def create_project_hash
   # location: project.css("span.location-name").text
   # location 2: project.css("ul.project-meta span.location-name").text
   # percent_funded: project.css("ul.project-stats li.first.funded strong").text.gsub("%", "").to_i
-end
+
